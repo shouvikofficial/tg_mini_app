@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 
 # Use your bot API token (replace with a secure method)
-BOT_TOKEN = os.getenv("BOT_TOKEN", "7850249781:AAG11pOjNjHFVMVzvTK0s4Op2kcGDtmG9EM")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "7858458663:AAHo6-FiPgTx1E0nwasQMLsZY52EJAjPYKc")
 bot = Bot(token=BOT_TOKEN)
 
 ADDRESS_FILE = "addresses.txt"
