@@ -8,7 +8,7 @@ function submitAddress() {
         return;
     }
 
-    fetch("https://your-backend-url.com/submit", {  // Replace with your actual backend URL
+    fetch("https://tg-mini-app-1.onrender.com", {  // Replace with your actual backend URL
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
